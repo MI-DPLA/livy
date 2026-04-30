@@ -119,9 +119,6 @@
     <py4j.version>0.10.9</py4j.version>
     <json4s.version>3.5.3</json4s.version>
     <spark.bin.name>spark-${spark.version}-bin-hadoop${hadoop.major-minor.version}</spark.bin.name>
-    <spark.bin.download.url>
-      https://archive.apache.org/dist/spark/spark-${spark.version}/${spark.bin.name}.tgz
-    </spark.bin.download.url>
 
     <!--  used for testing, NCSARequestLog use it for access log  -->
     <livy.log.dir>${basedir}/target</livy.log.dir>
@@ -1304,9 +1301,6 @@
         <py4j.version>0.10.9</py4j.version>
         <json4s.version>3.5.3</json4s.version>
         <spark.bin.name>spark-${spark.version}-bin-hadoop${hadoop.major-minor.version}</spark.bin.name>
-        <spark.bin.download.url>
-          https://archive.apache.org/dist/spark/spark-${spark.version}/${spark.bin.name}.tgz
-        </spark.bin.download.url>
       </properties>
     </profile>
 
@@ -1319,9 +1313,6 @@
         <json4s.version>3.7.0-M11</json4s.version>
         <netty.version>4.1.92.Final</netty.version>
         <spark.bin.name>spark-${spark.version}-bin-hadoop${hadoop.major-minor.version}</spark.bin.name>
-        <spark.bin.download.url>
-          https://archive.apache.org/dist/spark/spark-${spark.version}/${spark.bin.name}.tgz
-        </spark.bin.download.url>
       </properties>
     </profile>
 
